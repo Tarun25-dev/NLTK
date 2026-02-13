@@ -1,0 +1,27 @@
+NLTK:
+>> Natural Language ToolKit
+>> It is a python library used for working with NLP tasks.
+
+Who created NLTK?
+>> By steven bird and edward loper
+
+What can NLTK do?
+>> NLTK provided tools for:
+   >> Tokenization (splitting text into words)
+   >> Stopword removal (removing common words that do not add important meaning to a sentence. Ex:is, am, are, the, as, with, an, etc,..  
+   >> Stemming (process of reducing a word to its root(base) from. Ex: like removing ing, ed, ly, s those suffixes (flying to fly))
+   >> Lemmatization (reduces words to their meaningful root form using vocabulary and grammar rules. Ex: "better" becomes good, "studies" becomes study)
+   >> Difference between Stemming and Lemmatization is:
+      >> | Feature          | Stemming   | Lemmatization |
+      >> | ---------------- | ---------- | ------------- |
+      >> | Cuts words       | Yes        | No            |
+      >> | Uses grammar     | No         | Yes           |
+      >> | Output real word | Not always | Yes           |
+      >> | Accuracy         | Medium     | High          |
+      Example: studies --> studi (Stemming - not follows any dictionary rules, grammer)
+               studies --> study (Lemmatization - it follows all the rules in english)
+
+Installation :
+>> Open your terminal or cmd and type:
+>> "pip install nltk" 
+>> once installed you can use it for NLP tasks.
