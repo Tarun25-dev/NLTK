@@ -1,0 +1,10 @@
+NLP important Tasks:
+
+>> Text Classification
+>> Sentiment Analysis
+>> Machine Translation
+>> Question Answering
+>> Chatbots
+>> Text Summarization
+>> Named Entity Recognition
+>> Part-of-Speech Tagging

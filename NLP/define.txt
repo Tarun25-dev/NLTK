@@ -1,0 +1,28 @@
+NLP (Natural Language Processing):
+>> NLP is a field of Artificial Intelligence that helps computers understand, interpret, generate human language.
+
+Human Language: Telugu, Hindi, English,..
+>> computers normally understands only numbers(0's and 1's).
+>> NLA helps convert human language to numbers and numbers to meaningful output.
+
+Why do we need NLP?
+>> Beacuse humans communicate using language, not code.
+
+Applications of NLP:
+>> 1. Chatbots -- Chatgpt, gemini, claude, deepseek, etc,..
+>> 2. Voice assistants -- Siri, Alexa, etc,..
+>> 3. Spam detection -- Email filtering, etc,..
+>> 4. Sentiment analysis -- movie reviews, etc,..
+>> 5. Translation -- Google's Translate, etc,..
+>> 6. Resume screening -- Extracting skills, etc,..
+>> 7. Search engines -- Google understand Queries, etc,..
+
+Simple real life Example:
+input : i love this phone 
+>> computer converts text into tokens 
+   ["i","love","this","phone"]
+>> Then analyzes meaning
+>> Detects positive sentiment 
+output: positive
+
+>> This entire process is called NLP.
