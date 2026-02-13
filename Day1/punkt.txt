@@ -1,0 +1,18 @@
+Punkt:
+>> A pre-trained tokenizer model used for Tokenization process.
+>> split text into sentenses
+>> split text into words
+>> It understands punctuations(".",",","!","?") in text so,
+   >> using that it can split sentences
+   >> seperate words properly
+   >> preserve meaning
+>> Understanding punctuation helps NLP correctly split sentences, identify questions, preserve meaning, and avoid errors in text processing.
+
+How to install?
+
+>> open python andrun this 
+"
+import nltk
+nltk.download('punkt')
+"
+>> only first type setup
