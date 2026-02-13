@@ -1,0 +1,52 @@
+1. Natural Language understanding:
+>> this Classification understanding the meaning of text.
+   >> intent (user’s goal or purpose behind a sentence.)
+   >> sentiment 
+   >> entities (Key information extracted from text)
+   >> context (background or previous information that helps understand the current sentence correctly.)
+>> Examples:
+   >> Sentiment Analysis (positive/negative review)
+   >> Chatbots understanding user queries
+   >> Spam detection
+   >> Named Entity Recognition (NER)
+
+Real Example:
+input : "Book a flight to hyderabad tommorow"
+system understands: 
+>> intent: book flight
+>> location:hyderabad
+>> date:tommorow 
+
+2. Natural Language Generation(NLG):
+>> Generating human like text 
+The system creates,
+>> sentenses, summarizes, stories, answers, etc,.
+>> Examples:
+   >> Chatgpt responses
+   >> Automatic emails replies
+   >> News article Generation
+   >> report Generation
+
+3. Speech Processing:
+>> Working with Voice
+>> includes, speech to text(Google assistent), Text to speech(like Alexa speaking).
+
+4. Rule based NLP:
+>> uses grammer rules
+>> uses dictionaries
+>> no learning 
+>> old method
+>> Example :
+   >> it text contains "not good" --> "negative"
+
+5. Statistical NLP:
+>> Uses probability
+>> Uses Machine learning
+>> More flexible than rule based
+
+6. Deep learning based NLP:
+>> Uses Neural networks 
+>> Uses Transformers
+>> Examples: BERT(Bidirectional Encoder Representations from Transformers),
+             GPT(Generative Pre-trained Transformer),
+             LLaMA(Large Language Model Meta AI), etc,..
