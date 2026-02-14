@@ -1,0 +1,12 @@
+What is tokenization?
+>> tokenization is a process of breaking a text into small pieces.
+
+Types of Tokenization:
+>> There are twp types of tokenizations are there,
+>> 1. Word tokenization
+>> 2. Sentence tokenization
+
+>> 1. Word tokenization:
+   >> In word tokenization each word becomes a seperate token.
+>> 2. Sentence tokenization:
+   >> In Sentence tokenization each sentence becomes a seperate token.
