@@ -1,0 +1,15 @@
+What is the need of cleaning text?
+>> Beacuse Raw text looks like this,
+   >> "Tarun is Becoming an AI Engineer!!! 😊"
+   >> But  machines dont understand:
+      >> caiptal letter difference
+      >> Emojis
+      >> punctuation
+      >> common useless words (is,an,the)
+>> so thats why cleaning the test is most important otherwise machine confuses and gives inaccurate output.
+
+>> There are some steps to follow for text cleaning:
+   >> 1. convert to lowercase
+   >> 2. remove punctuation
+   >> 3. remove stopwards
+   
