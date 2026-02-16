@@ -1,0 +1,15 @@
+This is used in:
+
+Search engines
+Chatbots
+Sentiment analysis
+Resume keyword matching
+
+Why we need this?
+Look at this words :
+>> playing
+>> played
+>> plays 
+>> All mean the same base word called play but computer treats them as different words beacuse they dont know real meaning
+>> So we reduce them to base form.
+>> That process is Stemming and Lemmatization
