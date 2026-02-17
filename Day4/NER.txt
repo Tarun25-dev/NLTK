@@ -1,0 +1,2 @@
+NER - Named Entity Recognition (Finding real word entities)
+>> Ex: person names, countries, organizations, locations, etc..
