@@ -1,0 +1,5 @@
+Feature Extraction:
+>> Feature Extraction is a process of converting text into numerical format.
+Ex:
+"I love you" --> [1,1,1] 
+>> Each number represents presence of word.

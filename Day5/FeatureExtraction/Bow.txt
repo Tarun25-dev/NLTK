@@ -1,0 +1,19 @@
+BoW(Bag of Words):
+>> is also called as feature extraction 
+>> Counts frequency of each word
+>> Ignores grammer
+>> Ignores word order
+
+Example:
+sentense1:"i love python programming"
+sentense2:"i love java programming"
+>> then next that nltk some method do that feature extraction like this 
+output called vocabulary,
+["i","love","python","programming","java"] this is called bag of Words
+
+After convert it into vectors(numbers):
+
+| Sentence | I | love | python | programming |  java  |
+| -------- | - | ---- | ------ | ----------- | ------ |
+| S1       | 1 | 1    | 1      | 1           | 0      |
+| S2       | 1 | 1    | 0      | 1           | 1      |
