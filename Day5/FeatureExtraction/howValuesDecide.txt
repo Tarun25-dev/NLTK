@@ -1,0 +1,49 @@
+How Nltk CountVectorizar assigns a numerical value?
+>> Each value = Number of times that word appears in that document
+
+Example:
+documents =["I Love Java",
+            "I Love Python"]
+
+Step1: Converting all text to lowercase
+>> "i love java"
+>> "i love python"
+
+step2: Tokenization(split into words)
+doc1 = ["i","love","jave"]
+doc2 = ["i","love","python"]
+
+step3: Remove single charecters by default charecter 
+Beacuse default pattern is r'(?u)\b\w\w+\b' which means words must have atleast 2 letters.
+so now doc is 
+doc1 = ["love","java"] "i" removed  
+doc2 = ["love","python"] "i" removed 
+
+step4: create vocabulary (sorted alphabetically)
+so unique words only so,
+java
+Love
+python 
+>> by default alphabetical order
+and then do index mapping like this:
+>> java --> 0
+>> love --> 1
+>> python --> 2
+
+step4: count frequency in each document
+>> now algorithm in CountVectorizar counts how many times each word appears.
+
+>> doc1 = "java love"
+so,
+>> java --> 1
+>> love --> 1
+>> python --> 0 
+>> so this text to vector looks like this [1,1,0]
+
+>> doc1 = "love python"
+so,
+>> java --> 0
+>> love --> 1
+>> python --> 1
+>> so this text to vector looks like this [0,1,1]
+
