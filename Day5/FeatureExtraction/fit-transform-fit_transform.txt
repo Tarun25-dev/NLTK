@@ -1,0 +1,31 @@
+fit() vs transform() vs fit_transform():
+
+1. fit(): Learn from data
+>> in CountVectorizar, fit()
+>> Reads all documents 
+>> Builds vocabulary
+>> Assigns index numbers to words
+>> But it only learns vocabulary not convert text to numbers yet.
+>> vectorizer = CountVectorizar()
+>> vectorizer.fit(documents)
+
+2. transfrom(): uses learned vocabulary to convert text to numbers 
+>> counts words frequency 
+>> creates the numerical matrix
+>> But it deosnt work alone unless fit() was called before
+>> vectorizer = CountVectorizar()
+>> vectorizer.fit(documents)
+>> vectorizer.transform(documents)
+
+3. fit_transform(): It does BOTH steps in one line.
+>> X = vectorizer.fit_transform(documents)
+Internally it does:
+
+fit()
+then
+transform()
+
+So:
+
+Learn vocabulary
+Convert text to matrix
