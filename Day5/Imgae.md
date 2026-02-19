@@ -1,1 +1,0 @@
-![featureExtraction](featureExtraction.png)
