@@ -1,0 +1,45 @@
+Sentiment analysis is a classification of finding a text which is actually a positive sentense or negative text 
+>> Used in social media platforms to analysis trend analysis using comments 
+
+Example:
+"I love this phone" → Positive
+"This movie is terrible" → Negative
+
+Now we need to build a mini project on sentiment anaysis at first we need to install sklearn and some required libraries that kept on project file.
+
+>> from sklearn.model_selection import train_test_split
+>> It splits your dataset into:
+>> Training Data -> used to train model
+>> Testing Data -> used to test model 
+
+# why split?
+>> If we take same data for both testing and training then 
+>> Model will memorize
+>> Accuracy will be fake
+
+Example:
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+80% → Training
+20% → Testing
+
+2. from sklearn.naive_bayes import MultinomialNB
+>> This imports the Multinomial Naive Bayes model. 
+>> It is a classification algorithm used for text classification,spam detection, sentiment analysis 
+>> It works well with bag of words and  word frequencies
+>> Why Multinomial?
+>> Beacuse it works on count based features
+Example:
+love = 3
+java = 1
+>> Perfect for CountVectorizer output.
+
+3. from sklearn.metrics import accuracy_score
+>> This imports a function to measure model performance.
+>> it calculates accuracy of a model using the below formula
+>> accuracy = correct predictions / total predictions
+>> accuracy range between 0.0 to 0.1(0% to 100%)
+>> If 90 out of 100 predictions are correct:
+>> then accuracy of the model is 90% and also the predicted output is 90% have chances to correct.
